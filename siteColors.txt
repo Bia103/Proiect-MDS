@@ -1,0 +1,4 @@
+f7f7f7 -> alb
+93deff -> albastru deschis
+606470 -> gri
+323643 -> negru
