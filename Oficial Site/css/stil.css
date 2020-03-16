@@ -1,35 +1,35 @@
 @font-face 
 {
 	font-family: Monoton-Regular;
-	src: url(../Font/Monoton-Regular.woff);
+	src: url(../Font/Monoton-Regular.ttf);
 }
 
 @font-face 
 {
 	font-family: Satisfy-Regular;
-	src: url(../Font/Satisfy-Regular.woff);
+	src: url(../Font/Satisfy-Regular.ttf);
 }
 
 @font-face 
 {
 	font-family: elmessiri-bold;
-	src: url(../Font/elmessiri-bold.woff);
+	src: url(../Font/elmessiri-bold.otf);
 }
 
 @font-face 
 {
 	font-family: elmessiri-medium;
-	src: url(../Font/elmessiri-medium.woff);
+	src: url(../Font/elmessiri-medium.otf);
 }
 
 @font-face 
 {
 	font-family: elmessiri-regular;
-	src: url(../Font/elmessiri-regular.woff);
+	src: url(../Font/elmessiri-regular.otf);
 }
 
 @font-face 
 {
 	font-family: elmessiri-semibold;
-	src: url(../Font/elmessiri-semibold.woff);
+	src: url(../Font/elmessiri-semibold.otf);
 }
