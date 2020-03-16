@@ -1,0 +1,152 @@
+* 
+{
+	box-sizing: border-box;
+}
+
+@font-face 
+{
+	font-family: Monoton-Regular;
+	src: url(../Font/Monoton-Regular.ttf);
+}
+
+@font-face 
+{
+	font-family: Satisfy-Regular;
+	src: url(../Font/Satisfy-Regular.ttf);
+}
+
+@font-face 
+{
+	font-family: elmessiri-bold;
+	src: url(../Font/elmessiri-bold.otf);
+}
+
+@font-face 
+{
+	font-family: elmessiri-medium;
+	src: url(../Font/elmessiri-medium.otf);
+}
+
+@font-face 
+{
+	font-family: elmessiri-regular;
+	src: url(../Font/elmessiri-regular.otf);
+}
+
+@font-face 
+{
+	font-family: elmessiri-semibold;
+	src: url(../Font/elmessiri-semibold.otf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Poze/2.jpg');
+  background-size: cover;
+}
+
+#notfound .notfound-bg:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#notfound .notfound:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  width: 100%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0.7) inset;
+  z-index: -1;
+}
+
+.notfound {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  line-height: 1.4;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 200px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: Monoton-Regular;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 220px;
+  margin: 0px;
+  color: #222225;
+  text-transform: uppercase;
+}
+
+.notfound h2 {
+  font-family: Satisfy-Regular;
+  font-size: 26px;
+  font-weight: 400;
+  color: #222225;
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+
+.notfound a {
+  font-family: elmessiri-semibold;
+  display: inline-block;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: transparent;
+  color: #222225;
+  font-size: 14px;
+}
+
+.homepage:hover
+{
+	color: #fff;
+	background-color: #93deff;
+}
+
+
+@media only screen and (max-width: 480px) 
+{
+  .notfound .notfound-404 {
+    height: 146px;
+  }
+
+  .notfound .notfound-404 h1 {
+    font-size: 146px;
+  }
+
+  .notfound h2 {
+    font-size: 22px;
+  }
+}
