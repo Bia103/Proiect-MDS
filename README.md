@@ -4,7 +4,7 @@
   
     1. isi poate crea un cont
     
-    2.se poate loga
+    2. se poate loga
     
     3. poate asculta muzica
     
