@@ -1,1 +1,35 @@
-123
+@font-face 
+{
+	font-family: Monoton-Regular;
+	src: url(../Font/Monoton-Regular.woff);
+}
+
+@font-face 
+{
+	font-family: Satisfy-Regular;
+	src: url(../Font/Satisfy-Regular.woff);
+}
+
+@font-face 
+{
+	font-family: elmessiri-bold;
+	src: url(../Font/elmessiri-bold.woff);
+}
+
+@font-face 
+{
+	font-family: elmessiri-medium;
+	src: url(../Font/elmessiri-medium.woff);
+}
+
+@font-face 
+{
+	font-family: elmessiri-regular;
+	src: url(../Font/elmessiri-regular.woff);
+}
+
+@font-face 
+{
+	font-family: elmessiri-semibold;
+	src: url(../Font/elmessiri-semibold.woff);
+}
