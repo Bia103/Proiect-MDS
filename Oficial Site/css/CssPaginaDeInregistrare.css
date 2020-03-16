@@ -1,0 +1,48 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url("https://user-images.githubusercontent.com/48888793/76769400-1b175480-67a5-11ea-87cc-7f33e1d8b2f1.jpg");
+	animation: fadein 2s;
+	
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.formularDeInregistrare{
+	font-family: 'El Messiri', sans-serif;
+	font-size: 1vw;
+	border-width:thick;
+	border-style:groove;
+	border-color: #606470;
+	top: 10vw;
+	position:relative;
+	left: 25%;
+	background-color: #f7f7f7 ;
+	/* text-align:center;*/
+	width:50%;
+	height:23vw;
+	border-radius:25%;
+	margin:0%;
+}
+.formularDeInregistrare h1{
+	font-family: 'Monoton', cursive;
+	font-size: 3vw;
+	text-align:center;
+}
+.formularDeInregistrare p{
+	position:relative;
+	border-radius:50%;
+	left:15vw;
+	
+}
+.submit{
+	font-family: 'El Messiri', sans-serif;
+	font-size: 2vw;
+	background-color: #93deff ;
+	border-radius:25%;
+	position: relative;
+	left:20vw;
+}
