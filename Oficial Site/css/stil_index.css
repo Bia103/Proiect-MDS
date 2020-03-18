@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Monoton|Satisfy&display=swap" rel="stylesheet');
+
+* {
+    margin: 0px;
+	padding: 0px;
+	text-indent: 0px;
+	text-decoration: none;
+}
+body{
+	background-image: url("../Poze/mainPageBackground.jpg");
+	animation: fadein 2s;	
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+main {
+    font-family: 'El Messiri', sans-serif;
+	font-size: 1vw;
+	top: 7vw;
+	position: relative;
+	left: 5%;
+	background-color: #f7f7f7 ;
+	width: 80%;	
+	padding: 5%;
+	border-radius: 5%;
+}
+div#continut {
+	float: left;
+}
+div#continut h2{
+	font-family: 'Monoton', cursive;
+	font-size: 3vw;
+}
+#gifCasti {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding: 5%;
+	border: none;
+}
+div#continut p {
+	padding: 8%;
+}
+div#login {
+	text-align: center;
+}
+div#login h2{
+	font-family: 'Monoton', cursive;
+	font-size: 2vw;
+}
+div#login p{
+	text-align: center;
+	float: none;
+	padding: 2%;
+}
+.submit{
+	font-family: 'El Messiri', sans-serif;
+	font-size: 2vw;
+	background-color: #93deff ;
+	border-radius: 25%;
+	position: relative;
+	left: 20vw;
+}
+div#login .submit {
+	font-size: 1vw;
+	left: 0vw;
+	padding: 1%;
+}
+div#login .submit:hover{
+	box-shadow: 2px 2px 7px 0px #606470;
+}
+@media screen and (max-width: 600px) {
+	main {
+		font-size: 2vw;
+	}
+	div#continut {
+		float: none;
+	}
+	div#continut h2 {
+		font-size: 6vw;
+	}
+	#gifCasti {
+		display: none;
+	}
+}
