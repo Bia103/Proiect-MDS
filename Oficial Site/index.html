@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "ro">
+<head>
+    <meta charset="UTF-8">
+	<meta name="author" content="Dumitrache Larisa, Furculeșteanu Bianca, Ivan Oana, Stegărescu Ana-Maria">
+	<meta name="keywords" content="muzică, playlist, artist, artiști, cântece, cântăreți, cântărețe, jazz, solo">
+	<meta name="description" content="Site pentru fanii muzicali">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Music Hall of Fame - Main Page</title>
+	<link rel="icon" type="image/x-icon" href="Poze/1.png">
+    <link rel="stylesheet" type="text/css" href="stil_index.css">
+</head>
+<body>
+    <!-- <%- include ("../fragmente/header.ejs")%> -->
+	<a name="top"></a>
+	<main>
+		<div id = "continut">
+			<h2>Music  Hall  Of  Fame</h2>
+			<iframe src="https://giphy.com/embed/Oci3YiFFCke7S" id = "gifCasti"></iframe>
+			<p>milioane de cântece la un click distanță...</p>
+        </div>
+		
+        <div id = "login">
+        	<h2>Log In</h2>
+			<form method = "post" >
+				<p>
+					<label>
+						Username: <input type = "text" name = "username" value = "">
+					</label>
+				</p>
+				<p>
+					<label>
+						Password: <input type = "password" name = "parola" value = "">
+					</label>
+				</p>
+				<input type = "submit" value = "SUBMIT" class = "submit">
+			</form>
+        </div>
+	
+	</main>
+    <!--<%- include ("../fragmente/footer.ejs")%> -->
+</body>
+</html>
