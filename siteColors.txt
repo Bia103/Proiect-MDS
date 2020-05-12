@@ -3,7 +3,7 @@ f7f7f7 -> alb
 606470 -> gri
 323643 -> negru
 
-#61D8D2  //verde
-#353338 //gri intunecat
-#797071 //gri
-#93DEFF //albastru
+#61D8D2 // verde
+#353338 // gri intunecat
+#797071 // gri
+#93DEFF // albastru
