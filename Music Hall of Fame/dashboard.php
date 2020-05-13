@@ -64,24 +64,19 @@ $row = mysqli_fetch_assoc($rez);
 	?>
         
 		
-    <form action="search.php" method = "post">
+    <form action="Browser/search.php" method = "post">
 		<input name="keywords" type="text" placeholder="Search Keywords">
 		<input type="submit" name = "search_button" value = "Search">
     </form>  
 	<br>
 	
-	<form action="searchByLatest.php" method="post">
+	<form action="Browser/searchByLatest.php" method="post">
 		<button class="button" name="subject" type="submit" value="search">Cele mai Noi Hit-uri</button>
 	</form>
 	<br>
 	
-	<form action="searchByMostSearched.php" method="post">
+	<form action="Browser/searchByMostSearched.php" method="post">
 		<button class="button" name="subject" type="submit" value="search">Cele mai Populare Hit-uri</button>
-	</form>
-	<br>
-	
-	<form action="myPlaylist.php" method="post">
-		<button class="button" name="subject" type="submit" value="search">Playlist-urile Mele</button>
 	</form>
 	<br>
 	
