@@ -128,7 +128,7 @@ else
     <br></br>
     <input type = "submit"  name="song_select_button_2" value = "Selectează">
     <br></br>
-    <a href="search.php" >Înapoi la Pagina cu Rezultate</a>
+    <a href="../Browser/search.php" >Înapoi la Pagina cu Rezultate</a>
 	
 </form>
 </body>
