@@ -84,7 +84,7 @@ button {
 <body>
 
 <h2>Albume:</h2>
-<form action="album.php" method = "POST">
+<form action="../PageOf/album.php" method = "POST">
 
 	<table>
 		<tr>
