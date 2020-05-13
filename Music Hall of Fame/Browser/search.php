@@ -105,7 +105,7 @@ button {
 <h2>Melodii:</h2>
 
 <!-- Chestia asta crează cutia aia senzuală, care înconjoară tabelul; dar și ca să rețină informațiile introduse (e formular) -->
-<form name = "song_form" action="song.php" method = "POST">
+<form name = "song_form" action="../PageOf/song.php" method = "POST">
 
 <?php
 if(mysqli_num_rows($song_result) > 0)
@@ -158,7 +158,7 @@ else
 }?>
 
     <br></br>
-    <a href="dashboard.php" >Înapoi la Pagina Principală...</a>
+    <a href="../dashboard.php" >Înapoi la Pagina Principală...</a>
 	
 </form>
 
@@ -176,7 +176,7 @@ mysqli_free_result($song_result);
 
 <!---------------------------------------------ARTIȘTI ----------------------------------------------->
 <h2>Artiști:</h2>
-<form name = "artist_form" action="artist.php" method = "POST">
+<form name = "artist_form" action="../PageOf/artist.php" method = "POST">
 
 
 <?php
@@ -220,7 +220,7 @@ else
 }?>
 
     <br></br>
-    <a href="dashboard.php" >Înapoi la Pagina Principală...</a>
+    <a href="../dashboard.php" >Înapoi la Pagina Principală...</a>
 	
 </form>
 
@@ -238,7 +238,7 @@ mysqli_free_result($artist_result);
 
 <!----------------------------------------------ALBUME result----------------------------------------------->
 <h2>Albume:</h2>
-<form action="album.php" method = "POST">
+<form action="../PageOf/album.php" method = "POST">
 
 
 <?php
@@ -281,7 +281,7 @@ else
 }?>
 
     <br></br>
-    <a href="dashboard.php" >Înapoi la Pagina Principală...</a>
+    <a href="../dashboard.php" >Înapoi la Pagina Principală...</a>
 	
 </form>
 
