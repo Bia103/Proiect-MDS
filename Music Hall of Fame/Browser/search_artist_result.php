@@ -82,7 +82,7 @@ button {
 <body>
 
 <h2>Artiști:</h2>
-<form action="artist.php" method = "POST">
+<form action="../PageOf/artist.php" method = "POST">
 
 
 <table>
