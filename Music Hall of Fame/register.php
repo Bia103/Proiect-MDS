@@ -22,6 +22,21 @@ if (isset($_POST['uname']) and isset($_POST['username']) and isset($_POST['pass1
 	{
 		echo 'Acest Username este deja folosit de altcineva. Încearcă din nou!';
 	} 
+	else 
+	{
+		//Pas 2: Verificăm ca cele 2 pass să fie identice
+		if ($pass1 == $pass2) 
+		{
+			$sql = "INSERT INTO user (uname, username, password, umail) VALUES ('$uname', '$username', '$pass1', '$email')";
+			$rez = mysqli_query($conn, $sql);
+			header("Location: index.php");
+			exit();
+		} 
+		else 
+		{
+			echo 'Parolele Introduse nu Coincid. Încearcă din nou!';
+		}
+	}
 }
 
 ?>
