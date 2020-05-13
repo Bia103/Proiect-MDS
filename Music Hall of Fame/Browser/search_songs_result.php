@@ -85,7 +85,7 @@ button {
 
 <h2> Nume Melodii:</h2>
 <!-- Chestia asta crează cutia aia senzuală, care înconjoară tabelul -->
-<form action="song.php" method = "POST">
+<form action="../PageOf/song.php" method = "POST">
 
 <table>
 <tr>
