@@ -54,9 +54,9 @@ $con->query($sql);
 	?>
 	
 <br>	
-<a href="search.php" >Înapoi la Pagina cu Rezultate...</a>
+<a href="../Browser/search.php" >Înapoi la Pagina cu Rezultate...</a>
 <br><br>
-<a href="dashboard.php" >Înapoi la Pagina Principală...</a>
+<a href="../dashboard.php" >Înapoi la Pagina Principală...</a>
 
 
 
