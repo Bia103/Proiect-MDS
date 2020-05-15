@@ -342,7 +342,7 @@ if(mysqli_num_rows($list_result) > 0)
 } 
 else 
 {
-    echo "Niciun Rezultat Găsit 😞";
+    echo "Niciun Rezultat Găsit :( ";
 ?>
 </table>
 <?php
