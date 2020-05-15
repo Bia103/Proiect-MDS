@@ -295,5 +295,72 @@ mysqli_free_result($album_result);
 
 
 
+
+
+
+<!--------------------------------------Playlist
+----------------------------------------------->
+<h2>Playlists:</h2>
+<form action="../PageOf/list.php" method = "POST">
+
+
+<?php
+if(mysqli_num_rows($list_result) > 0)
+{
+?>
+    <table>
+		<tr>
+			<th>  </th>
+			<th>Nume Playlist</th>
+			<th>Nume User</th>
+			<th>Dată Creare</th>
+		</tr>
+		
+<?php
+    $i = 0;
+    while($row = mysqli_fetch_assoc($list_result) and $i<10)
+    {
+?>
+
+     	<tr>
+			<th><?php echo $row["lid"]?></th>
+          	<input  name="user_name" type="hidden" value = "<?php echo $username?>">
+            <th><?php echo $row["ltitle"]?></th>
+            <th><?php echo $row["username"]?></th>
+            <th><?php echo $row["lissuedate"]?></th>
+        </tr>
+		
+    <?php
+        $i++;
+    }?>
+	</table>
+	
+    <a href="search_list_result.php" style="float: right;">Accesează Restul Playlist-urilor...</a>
+    <br></br>
+    
+<?php
+} 
+else 
+{
+    echo "Niciun Rezultat Găsit 😞";
+?>
+</table>
+<?php
+}?>
+
+    <br></br>
+    <a href="../dashboard.php" >Înapoi la Pagina Principală...</a>
+	
+</form>
+
+
+<?php
+
+//Eliberare Rezultate
+mysqli_free_result($list_result);
+
+?>
+
+
 </body>
 </html>
