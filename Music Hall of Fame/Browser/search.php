@@ -362,5 +362,66 @@ mysqli_free_result($list_result);
 ?>
 
 
+
+
+
+<!-----------------------------------------USERS----------------------------------------------->
+<h2>Users:</h2>
+<form action="user.php" method = "POST">
+
+<?php
+if(mysqli_num_rows($user_result) > 0)
+{
+?>
+
+    <table>
+		<tr>
+			<th>Nume User</th>
+		</tr>
+	
+<?php
+    $i = 0;
+    while($row = mysqli_fetch_assoc($user_result) and $i<10)
+    {
+?>
+
+     	<tr>
+            <th><?php echo $row["username"]?></th>
+        </tr>
+		
+    <?php
+        $i++;
+    }?>
+	</table>
+	
+    <a href="search_user_result.php" style="float: right;">Vezi toți Utilizatorii...</a>
+    <br></br>
+    
+<?php
+} 
+else 
+{
+    echo "Niciun Rezultat Găsit :(";
+?>
+</table>
+<?php
+}?>
+
+    <br></br>
+    <a href="dashboard.php" >Înapoi la Pagina Principală...</a>
+	
+</form>
+
+
+
+<?php
+
+//Eliberare Rezultate
+mysqli_free_result($list_result);
+
+//Închidere conexiune
+mysqli_close($link);
+?>
+
 </body>
 </html>
