@@ -84,7 +84,11 @@ $row = mysqli_fetch_assoc($rez);
 		<button class="button" name="subject" type="submit" value="search">Playlist-urile Mele</button>
 	</form>
 	<br>
-		
+	
+	<form action="myFriends.php" method="post">
+		<button class="button" name="subject" type="submit" value="search">Prietenii Mei</button>
+	</form>
+	<br>
 		
 	<a href="logout.php">Logout</a>
 	
