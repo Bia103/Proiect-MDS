@@ -260,9 +260,9 @@ if(mysqli_num_rows($album_result) > 0)
 ?>
 
      	<tr>
-			<th><?php echo $row["albid"]?></th>
+		<th><?php echo $row["albid"]?></th>
           	<input  name="user_name" type="hidden" value = "<?php echo $username?>">
-            <th><?php echo $row["albtitle"]?></th>
+            	<th><?php echo $row["albtitle"]?></th>
         </tr>
 		
     <?php
@@ -368,7 +368,7 @@ mysqli_free_result($list_result);
 <!-----------------------------------------USERS
 ----------------------------------------------->
 <h2>Users:</h2>
-<form action="user.php" method = "POST">
+<form action="../PageOf/user.php" method = "POST">
 
 <?php
 if(mysqli_num_rows($user_result) > 0)
@@ -409,7 +409,7 @@ else
 }?>
 
     <br></br>
-    <a href="dashboard.php" >Înapoi la Pagina Principală...</a>
+    <a href="../dashboard.php" >Înapoi la Pagina Principală...</a>
 	
 </form>
 
