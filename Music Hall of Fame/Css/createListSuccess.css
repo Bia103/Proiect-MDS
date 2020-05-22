@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Monoton|Satisfy&display=swap" rel="stylesheet');
+
+html{
+	font-size: 26px;
+	font-family: 'El Messiri', sans-serif;
+}
+body {
+    background-image: url("../Images/createListSuccessBackground.jpg");
+    color: aliceblue;
+}
+div#continut {
+    margin: 10%;
+    padding: 5%;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    border-radius: 35px;
+}
+#linkuri {
+    display: flex;
+	flex-direction: row;
+}
+a:link {
+    padding: 10px;
+    color: #323643;
+    font-size: 16px;
+}
+a:hover {
+    color: #3e4d7e;
+}
