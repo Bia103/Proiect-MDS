@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Monoton|Satisfy&display=swap" rel="stylesheet');
+
+html{
+	font-size: 26vw;
+	font-family: 'El Messiri', sans-serif;
+}
+body {
+    background-image: url("../Imagini/myFriendsBackground.jpg");
+    /* position: absolute; */
+    width: 70%;
+}
+div#continut {
+    background-color: #f7f7f7;
+    opacity: 0.6;
+    border-radius: 25px;
+    width: 80%;
+    margin: 5%;
+    padding: 5%;
+}
+div#continut h2{
+    color: #323643;
+}
+
+/* .link {
+    background-color: #93DEFF;
+    border-radius: 15px;
+    color: #f7f7f7;
+} */
+/* unvisited link */
+a:link {
+    color: #323643;
+    font-size: 15px;
+}
+/* mouse over link */
+a:hover {
+    color: #3e4d7e;
+}
