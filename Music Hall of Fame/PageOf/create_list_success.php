@@ -1,7 +1,7 @@
 <!-- PHP ZONE! Don't touch it -->
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="Css/createListSuccess.css">
+        <link rel="stylesheet" type="text/css" href="../Css/createListSuccess.css">
     </head>
     <body>
         <div id = "continut">
