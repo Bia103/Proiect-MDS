@@ -48,7 +48,10 @@ $list_result = mysqli_query($link, $list_query) or die('List Query Failed: ' . m
 <body>
 
 <!------------------------------------------------ MELODII ----------------------------------------------------->
-<h2>Melodii:</h2>
+<div class="container">
+<div class="item">
+
+<div class="center"><button class="button1">Melodii:</button> <div>
 
 <!-- Chestia asta crează cutia aia senzuală, care înconjoară tabelul; dar și ca să rețină informațiile introduse (e formular) -->
 <form name = "song_form" action="../PageOf/song.php" method = "POST">
@@ -121,7 +124,7 @@ mysqli_free_result($song_result);
 
 
 <!---------------------------------------------ARTIȘTI ----------------------------------------------->
-<h2>Artiști:</h2>
+<button class="button1"> Artiști: </button>
 <form name = "artist_form" action="../PageOf/artist.php" method = "POST">
 
 
@@ -183,7 +186,7 @@ mysqli_free_result($artist_result);
 
 
 <!----------------------------------------------ALBUME result----------------------------------------------->
-<h2>Albume:</h2>
+<button class="button1">Albume:</button>
 <form action="../PageOf/album.php" method = "POST">
 
 
@@ -244,9 +247,8 @@ mysqli_free_result($album_result);
 
 
 
-<!--------------------------------------Playlist
------------------------------------------------>
-<h2>Playlists:</h2>
+<!--------------------------------------Playlist----------------------------------------------->
+<button class="button1">Playlists:</button>
 <form action="../PageOf/list.php" method = "POST">
 
 
@@ -311,9 +313,8 @@ mysqli_free_result($list_result);
 
 
 
-<!-----------------------------------------USERS
------------------------------------------------>
-<h2>Users:</h2>
+<!-----------------------------------------USERS----------------------------------------------->
+<button class="button1">Users:</button>
 <form action="../PageOf/user.php" method = "POST">
 
 <?php
@@ -369,6 +370,7 @@ mysqli_free_result($list_result);
 //Închidere conexiune
 mysqli_close($link);
 ?>
-
+</div>
+</div>
 </body>
 </html>
