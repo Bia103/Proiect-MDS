@@ -1,0 +1,47 @@
+
+
+
+* {
+	outline: none;
+}
+
+body {
+	text-align: center;
+	margin: 4rem auto;
+	box-sizing: border-box;
+	text-shadow: 0 1px 1px $clr--gray-mid;
+  font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+#titlu{
+
+	height: 50px;
+	
+	text-align:center;
+	width:100%;
+	color:blue;
+}
+
+
+body{
+	background-image: url("/Images/mylist8.jpg");
+}
+h2{ color: black; font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center; }
+form{
+	background:white;
+	opacity: 0.8;
+	border-width: 1px;
+}
+h2{
+	font-size: 30px;
+}
+#searchButton2{
+	
+	top: 32vw;
+	width: 20px;
+	left: 50vw;
+	
+	
+}

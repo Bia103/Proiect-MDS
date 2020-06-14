@@ -1,0 +1,158 @@
+body{
+	background-image: url("/Images/artist2.jpg");
+}
+body {
+	text-align: center;
+	margin: 4rem auto;
+	box-sizing: border-box;
+	text-shadow: 0 1px 1px $clr--gray-mid;
+  font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	
+}
+
+
+#titlu{
+
+	height: 50px;
+	
+	text-align:center;
+	width:100%;
+	color:blue;
+}
+
+
+
+h2{ color: white; font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center; }
+form{
+	background:white;
+	opacity: 0.8;
+	border-width: 1px;
+}
+h2{
+	font-size: 30px;
+}
+#searchButton2{
+	
+	top: 32vw;
+	width: 20px;
+	left: 50vw;
+	
+	
+}
+a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  z-index: 1;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: .07em;
+  height: .1em;
+  width: 100%;
+  background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+  z-index: -1;
+  transition: height .25s cubic-bezier(.6,0,.4,1);
+}
+
+a:hover::after {
+  height: .2em;
+}
+.link {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 34px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 10px;
+  position: relative;
+}
+.link span {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.wipe, .slide, .opacity {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.opacity {
+  -webkit-transition: background-color 0.3s linear, color 0.3s linear;
+  transition: background-color 0.3s linear, color 0.3s linear;
+  background: rgba(255, 255, 255, 0);
+}
+.opacity:hover {
+  color: #124a58;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.wipe {
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+.wipe::after {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #fff;
+  content: " ";
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: -webkit-transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-transform: translateY(34px);
+          transform: translateY(34px);
+  z-index: -1;
+}
+.wipe:hover {
+  color: #124a58;
+}
+.wipe:hover::after {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.underline {
+  border: 2px solid transparent;
+}
+.underline::after {
+  width: 0%;
+  height: 2px;
+  display: block;
+  background-color: #fff;
+  content: " ";
+  position: absolute;
+  top: 34px;
+  left: 50%;
+  -webkit-transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.underline:hover::after {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #fff;
+  content: " ";
+  position: absolute;
+  top: 34px;
+  left: 0;
+}
