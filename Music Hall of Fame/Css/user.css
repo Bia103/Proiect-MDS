@@ -14,12 +14,12 @@ div#continut h2 {
 .button {
     border-radius: 20%;
     padding: 5px;
-	background-color: rgb(218, 155, 40);
-	color: white;
-	opacity: 0.5;
+    background-color: rgb(218, 155, 40);
+    color: white;
+    opacity: 0.5;
 }
 .button:hover {
-	opacity: 1;
+   opacity: 1;
 }
 a:hover {
     color: rgb(218, 155, 40);
@@ -27,7 +27,6 @@ a:hover {
 table {
     border-collapse: collapse;
     width: 70%;
-    position: absolute;
     left: 9%;
     overflow-x: auto;
   }
