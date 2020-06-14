@@ -159,6 +159,9 @@ width:3px;
 </style>
  <html>   
 <body>
+<header>
+<?php include 'menu.php';?>
+</header>
 <br></br>
 
 
