@@ -19,6 +19,9 @@ $result = mysqli_query($link, "SELECT * FROM follow WHERE username1 = '$username
     <link rel="stylesheet" type="text/css" href="Css/myFriends.css">
 </head>
 <body>
+<header>
+<?php include 'menu.php';?>
+</header>
 <div id = "continut">
     <h2> <?php echo "Prietenii Mei"; ?></h2>
 
