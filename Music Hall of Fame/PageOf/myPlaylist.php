@@ -58,7 +58,7 @@ $result = mysqli_query($link, $sql) or die('Playlist Query failed: ' . mysql_err
       </table>
           
       <div id = "linkuri">
-        <input type = "submit"  name="list_select_button_2" value = "Selectează">
+        <input type = "submit"  name="list_select_button_2" value = "Selectează" class = "button">
         <a href="../Browser/search.php" >Înapoi la Pagina cu Rezultate</a>
       </div>
       </div>
