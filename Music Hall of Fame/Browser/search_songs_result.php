@@ -29,8 +29,10 @@ $result = mysqli_query($link, $query) or die('Query Failed: ' . mysql_error());
 
 
 <body>
-
-<h2> Nume Melodii:</h2>
+<div class="container">
+<div class="item">
+	
+<button class="button1">Nume Melodii:</button>
 <!-- Chestia asta crează cutia aia senzuală, care înconjoară tabelul -->
 <form action="../PageOf/song.php" method = "POST">
 
@@ -68,11 +70,13 @@ else
     
 	
     <br></br>
-    <input type = "submit"  name="song_select_button_2" value = "Selectează">
+    <button type = "submit"  name="song_select_button_2" class="button2"> Selectează</button>
     <br></br>
     <a href="search.php" >Înapoi la Pagina cu Rezultate</a>
 	
 </form>
+</div>
+</div>
 </body>
 
 </html>
