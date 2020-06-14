@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Monoton|Satisfy&display=swap" rel="stylesheet');
+
+html{
+	font-family: 'El Messiri', sans-serif;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 37%, rgba(2,16,112,1) 85%);
+    color: aliceblue;
+    text-align: center;
+}
+div#continut h2 {
+  color: purple;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    position: absolute;
+    left: 9%;
+    overflow-x: auto;
+  }
+  
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+  
+th {
+    text-align: left;
+    background-color: rgb(112, 96, 185);
+    color: white;
+}
+
+#button  {
+    background-color: rgb(112, 96, 185);
+    border-radius: 15%;
+    color: white;
+    padding: 8px;
+    margin-top: 6%;
+}
+
+a:link {
+    color: #cccfda;
+}
+a:hover {
+    color: #ffffff;
+}
+
+div#animatie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background-color: black;
+    color: white;
+}
+  
+  .noteMuzicale {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 50%;
+    min-width: 300px;
+    height: 200px;
+    border: 0px solid #000;
+  }
+  
+  .nota-1, .nota-2, .nota-3, .nota-4 {
+    position: absolute;
+    animation: notes 2s infinite linear;
+    font-size: 35px;
+    opacity: 0;
+  }
+  
+  .nota-1 {
+    top: 60px;
+    left: 0;
+    animation-delay: 0.5s;
+  }
+  
+  .nota-2 {
+    top: 30px;
+    left: 30%;
+    animation-delay: 1s;
+  }
+  
+  .nota-3 {
+    top: 90px;
+    left: 60%;
+    animation-delay: 1.5s;
+  }
+  
+  .nota-4 {
+    top: 40px;
+    left: 90%;
+    animation-delay: 2s;
+  }
+  
+  @keyframes notes {
+    0% {
+      transform: scale(1) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.5) translate(50%, -50%);
+    }
+    80% {
+      opacity: 0;
+      transform: scale(1.5) translate(100%, -100%);
+    }
+    100% {
+      transform: scale(1.5) translate(100%, -100%);
+      opacity: 0;
+    }
+  }
+  

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Monoton|Satisfy&display=swap" rel="stylesheet');
+
+
+html{
+	font-size: 26px;
+	font-family: 'El Messiri', sans-serif;
+}
+body {	
+	background-image: url("../Images/registerBackground.jpg");
+}
+#container {
+	background-color: #f7f7f7;
+	margin: 10%;
+	position: absolute;
+	height: 70%;
+	width: 55%;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	opacity: 0.9;
+}
+#registerImage {
+	width: 65%;
+	height: 100%;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	opacity: 0.98;
+}
+#register {
+	padding: 3px;
+}
+#register h2{
+	padding-left: 75%;
+	color: #0b3621;
+	position: relative;
+	top: -95%;
+	opacity: 0.98;
+}
+#formular {
+	padding-left: 70%;
+	position: relative;
+	top: -100%;
+}
+#formular input{
+	margin-left: 30%;
+	margin-bottom: 7%;
+	padding: 3px;
+	border-radius: 5px;
+	border: 1px solid #0b3621;
+	position: relative;
+	width: 70%;
+	opacity: 0.98;
+	width: 250px;
+}
+#formular input:hover{
+	border: 2px solid #219c60;
+}
+.button {
+	background-color: #0b3621;
+	color: white;
+	opacity: 0.2;
+	border-radius: 100px;
+}
+.button:hover {
+	opacity: 1;
+}
+/* div#dateGresite {
+	background-color: #f7f7f7;
+	border-radius: 15px;
+	position: absolute;
+	width: 45%;
+	padding: 3px;
+	color: #0b3621;
+	border: 2px solid #0b3621;
+	text-align: center;
+} */
+
+@media only screen and (max-width: 1350px) {
+	#container {
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 1060px) {
+	#registerImage {
+		display: none;	
+	}
+	#container {
+		margin-top: 18%;
+	}
+	#register h2{
+		padding-left: 30%;
+		top: 0%;
+	}
+	#formular {
+		padding-left: 0%;
+		top: 0%;
+	}
+}

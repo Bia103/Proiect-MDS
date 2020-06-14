@@ -15,30 +15,34 @@ $result = mysqli_query($link, "SELECT * FROM follow WHERE username1 = '$username
 <!-- HTML ZONE -->
 <!DOCTYPE html>
 <html>
-
+<head>
+    <link rel="stylesheet" type="text/css" href="Css/myFriends.css">
+</head>
 <body>
+<div id = "continut">
+    <h2> <?php echo "Prietenii Mei"; ?></h2>
 
-<h2> <?php echo "Prietenii Mei:"; ?></h2>
-
-<?php
-if(mysqli_num_rows($result) > 0)
-{
-    while($row = mysqli_fetch_assoc($result))
+    <div id = "prieteni">
+    <?php
+    if(mysqli_num_rows($result) > 0)
     {
-		echo "Nume Prieten: " . $row["username2"]. "<br>";
-		echo "Dată: " . $row["followtime"].  "<br>"; 
-		echo "----------------------------------------"."<br>";
-    }
-} 
-else 
-{
-    echo "Niciun Prieten Adăugat :(";
-}?>
-</table>
-    
-    <br></br>
-    <a href="dashboard.php" >Înapoi la Pagina Principală</a>
-
+        while($row = mysqli_fetch_assoc($result))
+        {
+            echo "Nume Prieten: " . $row["username2"]. "<br>";
+            echo "Dată: " . $row["followtime"].  "<br>"; 
+            echo "----------------------------------------"."<br>";
+        }
+    } 
+    else 
+    {
+        echo "Niciun Prieten Adăugat :(";
+    }?>
+    </div>
+    <!-- </table> -->
+        
+        </br>
+        <a href="dashboard.php">Înapoi la Pagina Principală</a>
+</div>
 </body>
 
 </html>
