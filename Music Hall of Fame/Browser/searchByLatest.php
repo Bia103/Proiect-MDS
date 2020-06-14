@@ -1,4 +1,12 @@
-<html>
+<!Doctype html>
+<html lang="ro">
+<head>
+<title> Music Hall of Fame </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="search">
+<link rel="stylesheet" type="text/css" href="../Css/searchByLatest.css">
+</head>
 <body>
 
 
