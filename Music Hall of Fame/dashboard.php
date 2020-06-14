@@ -273,17 +273,17 @@ width:3px;
 	
 	<br>
 	
-	<form action="searchByLatest.php" method="post">
+	<form action="Browser/searchByLatest.php" method="post">
 		<button class="button btn1" name="subject" type="submit" value="search">Cele mai Noi Hit-uri</button>
 	</form>
 	<br>
 	
-	<form action="searchByMostSearched.php" method="post">
+	<form action="Browser/searchByMostSearched.php" method="post">
 		<button class="button btn2" name="subject" type="submit" value="search">Cele mai Populare Hit-uri</button>
 	</form>
 	<br>
 		
-	<form action="myPlaylist.php" method="post">
+	<form action="PageOf/myPlaylist.php" method="post">
 		<button class="button btn3" name="subject" type="submit" value="search">Playlist-urile Mele</button>
 	</form>
 	<br>
