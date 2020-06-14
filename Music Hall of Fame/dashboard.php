@@ -221,7 +221,9 @@ width:3px;
 </head>
 
 <body>
-	
+<header>
+<?php include 'menu.php';?>
+</header>
 
 
 <!-- Page content -->
