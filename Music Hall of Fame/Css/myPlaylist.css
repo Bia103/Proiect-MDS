@@ -15,7 +15,6 @@ div#continut h2{
 table {
     border-collapse: collapse;
     width: 70%;
-    position: absolute;
     left: 9%;
     opacity: 1;
   }
@@ -34,17 +33,13 @@ th {
     color: white;
 }
 
-#button  {
-    background-color: rgb(112, 96, 185);
-    border-radius: 15%;
-    color: white;
-    padding: 8px;
-    margin-top: 6%;
+#linkuri *{
+    margin: 2%;
 }
 
 #linkuri {
     display: flex;
-	flex-direction: row;
+    flex-direction: row;
 }
 a:link {
     color: #323643;
@@ -54,11 +49,23 @@ a:link {
 a:hover {
     color: #3e4d7e;
 }
-/* ?? Tabelul se suprascrie peste butoane */
-/* div#tabelPlusButon {
+div#tabelPlusButon {
     display: flex;
     flex-direction: column;
-} */
+}
+.button {
+    border-radius: 20%;
+    padding: 5px;
+    background-color: rgb(218, 155, 40);
+    color: white;
+    opacity: 0.5;
+}
+.button:hover {
+    opacity: 1;
+}
+a:hover {
+    color: rgb(218, 155, 40);
+}
 
 @media only screen and (max-width: 1060px) {
 	table {
