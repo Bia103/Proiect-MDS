@@ -28,8 +28,10 @@ $result = mysqli_query($link, $sql) or die('Playlist Query failed: ' . mysql_err
 
 
 <body>
-
-<h2>Playlists:</h2>
+<div class="container">
+<div class="item">
+	
+<button class="button1">Playlists:</button>
 <form action="../PageOf/list.php" method = "POST">
 
 	<table>
@@ -64,11 +66,13 @@ else
 }?></table>
     
     <br></br>
-    <input type = "submit"  name="list_select_button_2" value = "Selectează">
+    <<button type = "submit"  name="list_select_button_2" class="button2">Selectează</button>
     <br></br>
     <a href="search.php" >Înapoi la Pagina cu Rezultate</a>
 	
 </form>
+</div>
+</div>
 </body>
 
 </html>
