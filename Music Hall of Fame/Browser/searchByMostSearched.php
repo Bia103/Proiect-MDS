@@ -8,6 +8,9 @@
 <link rel="stylesheet" type="text/css" href="../Css/searchByMostSearched.css">
 </head>
 <body>
+<header>
+<?php include '../menu.php';?>
+</header>
 <div class="container">
 <div class="item">
 
