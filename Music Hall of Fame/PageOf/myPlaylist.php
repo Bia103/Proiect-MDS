@@ -22,6 +22,9 @@ $result = mysqli_query($link, $sql) or die('Playlist Query failed: ' . mysql_err
 </head>
 
 <body>
+<header>
+<?php include '../menu.php';?>
+</header>
   <div id = "continut">
     <h2>Playlists:</h2>
     <form action="show_playlist.php" method = "POST">
