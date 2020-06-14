@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/css/menu.css">
+<link rel="stylesheet" type="text/css" href="/Css/menu.css">
 </head>
 <nav class>
 
