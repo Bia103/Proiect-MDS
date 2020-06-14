@@ -30,8 +30,10 @@ $result = mysqli_query($link, $sql) or die('Album Query Failed: ' . mysql_error(
 
 
 <body>
-
-<h2>Albume:</h2>
+<div class="container">
+<div class="item">
+	
+<button class="button1">Albume:</button>
 <form action="../PageOf/album.php" method = "POST">
 
 	<table>
@@ -61,11 +63,13 @@ else
 }?></table>
     
     <br></br>
-    <input type = "submit"  name="album_select_button_2" value = "Selectează">
+    <button type = "submit"  name="album_select_button_2" class="button2">Selectează </button>
     <br></br>
     <a href="search.php" >Înapoi la Pagina cu Rezultate</a>
 	
 </form>
+</div>
+</div>
 </body>
 
 </html>
