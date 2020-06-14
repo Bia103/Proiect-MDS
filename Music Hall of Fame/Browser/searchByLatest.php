@@ -8,7 +8,8 @@
 <link rel="stylesheet" type="text/css" href="../Css/searchByLatest.css">
 </head>
 <body>
-
+<div class="container">
+<div class="item">
 
 <?php
 $servername = "localhost";
@@ -47,8 +48,10 @@ for($i = 0; $i < $result->num_rows; $i++)
 }
 $conn->close();
 ?>
-<form action="../dashboard.php" method="post">
-<button name="subject" type="submit" value="search">Înapoi în Pagina Principală</button>
+<form action="dashboard.php" method="post">
+<button name="subject" type="submit" value="search" class="button2">Înapoi la Pagina Principală</button>
 </form>
+</div>
+</div>
 </body>
 </html>
