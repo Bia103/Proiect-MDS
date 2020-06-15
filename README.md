@@ -8,7 +8,7 @@ Proiectul „Music Hall Of Fame” este o aplicație web care se folosește de l
 
 ## Conținutul repository-ului
 
-Versiunea finală cu toate funcționalitățile implementate se găsește în folderul The End of The Hell - Version Finale.
+Versiunea finală cu toate funcționalitățile implementate se găsește în folderul [The End of The Hell - Version Finale](https://github.com/Bia103/Proiect-MDS/tree/master/The%20End%20of%20The%20Hell%20-%20Version%20Finale).
 
 Structura acestui folder este următoarea:
 
