@@ -1,0 +1,63 @@
+body {
+    background-image: url("../Images/myPlaylistBackground.jpg");
+}
+div#continut {
+    background-color: #f7f7f7;
+    opacity: 0.8;
+    border-radius: 25px;
+    width: 80%;
+    margin: 5%;
+    padding: 5%;
+}
+div#continut h2{
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    left: 9%;
+    opacity: 1;
+  }
+  
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+	text-shadow: 5px 5px 5px black, 5px 5px 5px black;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+  
+th {
+    text-align: left;
+    background-color: #0b3621;
+    color: white;
+}
+
+#button  {
+    background-color: rgb(112, 96, 185);
+    border-radius: 15%;
+    color: white;
+    padding: 8px;
+    margin-top: 6%;
+}
+
+#linkuri {
+    display: flex;
+	flex-direction: row;
+}
+a:link {
+    color: #323643;
+    padding: 3px;
+    font-size: 15px;
+}
+a:hover {
+    color: #3e4d7e;
+}
+
+
+@media only screen and (max-width: 1060px) {
+	table {
+        padding-bottom: 20%;
+    }
+}

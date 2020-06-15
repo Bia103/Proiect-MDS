@@ -1,0 +1,49 @@
+body {
+    background-image: url(../Images/userBackground.jpg);
+}
+div#continut {
+    margin: 10%;
+    padding: 5%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 35px;
+}
+div#continut h2 {
+    color: rgb(218, 155, 40);
+	text-shadow: 0 0 1px black;
+}
+.button {
+    border-radius: 20%;
+    padding: 5px;
+	background-color: rgb(218, 155, 40);
+	color: white;
+	opacity: 0.5;
+	text-shadow: 0 0 5px black, 0 0 5px black;
+}
+.button:hover {
+	opacity: 1;
+}
+a:hover {
+    color: rgb(218, 155, 40);
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    left: 9%;
+    overflow-x: auto;
+  }
+  
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+  
+th {
+    text-align: left;
+    background-color: rgb(218, 155, 40);
+    color: white;
+	text-shadow: 0 0 5px black, 0 0 5px black;
+}

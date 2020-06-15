@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Monoton|Satisfy&display=swap" rel="stylesheet');
+
+html{
+	font-size: 26px;
+	font-family: 'El Messiri', sans-serif;
+}
+body {
+    background-image: url("../Images/10.jpg");
+    color: aliceblue;
+}
+div#continut {
+    margin: 10%;
+    padding: 5%;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    border-radius: 35px;
+}
+

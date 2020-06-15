@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Monoton|Satisfy&display=swap" rel="stylesheet');
+ 
+body {
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    background-image: url("../Images/songBackground.jpg");
+}
+div#continut {
+    margin: 10%;
+    padding: 5%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 35px;
+}
+#gif {
+    border: 0px;
+}
+h1, p {
+    color: rgb(218, 120, 29);
+}
+#button {
+    padding: 8px;
+    border-radius: 10px;
+    background-color:  rgb(218, 120, 29);
+    color: rgb(255, 255, 255);
+}
+#button:hover {
+    background-color:  rgb(177, 87, 3);
+}
+audio {
+    margin: 10%;
+    margin-left: 0%;
+    width: 50%;
+}
+a:link {
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+	underline: none;
+}
+a:hover {
+    color:  rgb(218, 120, 29);
+}
+#linkuri {
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 1060px) {
+	#linkuri {
+        display: inline;
+        flex-direction: none;
+    }
+}

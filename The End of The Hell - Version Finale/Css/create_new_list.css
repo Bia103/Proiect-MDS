@@ -1,0 +1,120 @@
+
+
+
+* {
+	outline: none;
+}
+
+body {
+	text-align: center;
+	margin: 4rem auto;
+	box-sizing: border-box;
+	text-shadow: 0 1px 1px $clr--gray-mid;
+  font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+#titlu{
+
+	height: 50px;
+	
+	text-align:center;
+	width:100%;
+	color:blue;
+}
+
+
+body{
+	background-image: url("/Images/create 4.jpg");
+}
+
+h2{ color: black; font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center; }
+
+form{
+	background:white;
+	opacity: 0.9;
+	border-width: 1px;
+}
+h2{
+	font-size: 30px;
+}
+#searchButton2{
+	
+	top: 32vw;
+	width: 20px;
+	left: 50vw;
+	
+	
+}
+a{
+	color:black;
+}
+a:hover {
+    color:  rgb(218, 120, 29);
+}
+
+
+
+.container{
+	font-family: 'Marck Script', cursive;
+	font-size: 2vw;
+	position: absolute;
+	background: white;
+	width:50vw;
+	height: 23vw;
+	text-align: center;
+	left:25%;
+	top: 25%;
+	  padding: 1em;
+  border: 3px solid #CCC;
+  border-radius: 1em;
+}
+#btn {
+  background: #492c48;
+  height: 35px;
+  min-width: 102px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 5px black;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  position: absolute;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateY(-50%);
+  left: 44%;
+  position: absolute;
+width:3px;
+  
+  cursor: pointer;
+  padding-top: 5px;
+  top: 21vw;
+}
+#btn #circle {
+  width: 3px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+#btn:hover {
+  height: 50px;
+  width: 150px;
+  left:48%
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
